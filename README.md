@@ -1,14 +1,14 @@
-# 🚀 AI-Powered Task Scheduler for Space–Ground Computing
+#  AI-Powered Task Scheduler for Space–Ground Computing
 
 An AI-powered task scheduling system that uses **Google Gemini 2.5 Flash** to make intelligent decisions about whether computing tasks should be executed on satellite nodes or ground infrastructure.
 
-## 📌 Overview
+##  Overview
 
 Space–ground computing involves distributing computational tasks between satellites and ground-based systems. Choosing the right execution location is important for managing latency, power consumption, computational capacity, cost, and task urgency.
 
 This project integrates Google's Gemini AI to analyze task requirements and available node conditions, recommend an appropriate execution location, and provide an explanation for each scheduling decision through an interactive dashboard.
 
-## ✨ Features
+##  Features
 
 - **AI-Powered Scheduling:** Uses Google Gemini 2.5 Flash to recommend satellite or ground execution.
 - **Task Submission:** Submit tasks with parameters such as urgency, data size, computational requirements, and power constraints.
@@ -19,7 +19,7 @@ This project integrates Google's Gemini AI to analyze task requirements and avai
 - **Persistent Storage:** Store tasks and scheduling decisions in MongoDB.
 - **REST API:** Connect the frontend, backend, and validation service.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technologies |
 |---|---|
@@ -30,7 +30,7 @@ This project integrates Google's Gemini AI to analyze task requirements and avai
 | Validation Service | Python, Flask |
 | Development Tools | VS Code, Git, GitHub |
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
                  ┌──────────────────────┐
@@ -68,7 +68,7 @@ This project integrates Google's Gemini AI to analyze task requirements and avai
 5. **Store the result:** Task information and scheduling decisions are persisted in MongoDB.
 6. **Monitor and analyze:** The dashboard presents node status, AI decisions, and scheduling analytics.
 
-## 📂 Project Modules
+##  Project Modules
 
 - **Dashboard:** Displays a summary of the scheduling system.
 - **Submit Task:** Accepts task details and scheduling requirements.
@@ -76,7 +76,7 @@ This project integrates Google's Gemini AI to analyze task requirements and avai
 - **AI Decisions:** Shows AI-generated scheduling recommendations and explanations.
 - **Analytics:** Presents scheduling insights using charts.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -148,7 +148,7 @@ The validation service is configured to run on port `5001`.
 
 > **Note:** Directory names, entry-point filenames, and environment variable names may differ in your repository. Follow your actual project structure and configuration.
 
-## 🔌 Backend API
+##  Backend API
 
 The backend includes the following application endpoints:
 
@@ -160,7 +160,7 @@ The backend includes the following application endpoints:
 
 The API is served by the Express backend on port `8080`, subject to your local configuration.
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 | Variable | Purpose |
 |---|---|
@@ -170,7 +170,7 @@ The API is served by the Express backend on port `8080`, subject to your local c
 
 Keep `.env` files private and add them to `.gitignore`.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Explore AI-assisted task scheduling for space–ground computing.
 - Evaluate task requirements against available computing resources.
@@ -178,7 +178,7 @@ Keep `.env` files private and add them to `.gitignore`.
 - Monitor network conditions through a centralized dashboard.
 - Demonstrate integration of generative AI, REST APIs, databases, and web technologies.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Implement more realistic satellite and ground-node telemetry.
 - Introduce historical performance data for improved scheduling decisions.
